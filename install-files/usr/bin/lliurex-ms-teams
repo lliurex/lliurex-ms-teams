@@ -5,9 +5,9 @@ msg="Unable to launch MS Teams. You need install chromium-browser"
 
 if [ -d "$chromiumPath" ];then
 
-	chromium-browser --app="https://teams.microsoft.com"
+	chromium --app="https://teams.microsoft.com"
 
 else
-	kdialog --title "LliureX-MSTeams" --icon "lliurex-ms-teams" --error "$msg"
+	kdialog --title "LliureX-MS-Teams" --icon "lliurex-ms-teams" --error "$msg"
 
 fi
