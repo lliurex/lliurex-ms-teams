@@ -8,6 +8,6 @@ if [ -d "$chromiumPath" ];then
 	chromium-browser --app="https://teams.microsoft.com"
 
 else
-	kdialog --icon lliurex-ms-teams --title "Lliurex-MSTeams" "$msg"
+	kdialog --title "LliureX-MSTeams" --icon "lliurex-ms-teams" --error "$msg"
 
 fi
