@@ -1,0 +1,13 @@
+#!/bin/bash
+
+chromiumPath=/var/snap/chromium/
+msg="Unable to launch MS Teams. You need install chromium-browser"
+
+if [ -d "$chromiumPath" ];then
+
+	chromium-browser --app="https://teams.microsoft.com"
+
+else
+	kdialog --icon lliurex-ms-teams --title "Lliurex-MSTeams" "$msg"
+
+fi
