@@ -1,3 +1,9 @@
+lliurex-ms-teams (0.12) jammy; urgency=medium
+
+  * Initial release for Jammy
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 31 Aug 2023 14:39:14 +0200
+
 lliurex-ms-teams (0.2) focal; urgency=medium
 
   * Fixed script to launch chromium in snap version instead chromium-browser deb version
