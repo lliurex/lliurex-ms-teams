@@ -1,0 +1,11 @@
+lliurex-ms-teams (0.2) focal; urgency=medium
+
+  * Fixed script to launch chromium in snap version instead chromium-browser deb version
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 11 Apr 2023 13:34:14 +0200
+
+lliurex-ms-teams (0.1) focal; urgency=medium
+
+  * Initial release
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 11 Apr 2023 12:34:02 +0200

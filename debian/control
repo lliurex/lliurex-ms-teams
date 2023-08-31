@@ -1,0 +1,15 @@
+Source: lliurex-ms-teams
+Section: network
+Priority: standard
+Maintainer: Equipo LliureX <lliurex@gva.es> 
+Build-Depends: debhelper (>=10), llxsrchelper
+Standards-Version: 4.1.2
+Homepage: http://lliurex.net
+Vcs-Browser: https://github.com/lliurex/lliurex-ms-teams
+
+Package: lliurex-ms-teams
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: LliureX MS Teams utility
+  This package allows to launch MS Teams with chromium browser in app mode
+
