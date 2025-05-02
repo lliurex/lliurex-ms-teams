@@ -1,9 +1,9 @@
 #!/bin/bash
 
-chromiumPath=/var/snap/chromium/
+chromiumPath=/usr/bin/chromium
 msg="Unable to launch MS Teams. You need install chromium-browser"
 
-if [ -d "$chromiumPath" ];then
+if [ -f "$chromiumPath" ];then
 
 	chromium --app="https://teams.microsoft.com"
 
