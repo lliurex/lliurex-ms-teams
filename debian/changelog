@@ -1,3 +1,9 @@
+lliurex-ms-teams (0.12.1) jammy; urgency=medium
+
+  * Added compatibility with chromium in deb version
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 11 Feb 2026 10:50:02 +0100
+
 lliurex-ms-teams (0.12) jammy; urgency=medium
 
   * Initial release for Jammy
