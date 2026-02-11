@@ -3,7 +3,7 @@
 chromiumPath=/usr/bin/chromium/
 msg="Unable to launch MS Teams. You need install chromium-browser"
 
-if [ -d "$chromiumPath" ];then
+if [ -e "$chromiumPath" ];then
 
 	chromium --app="https://teams.microsoft.com"
 
